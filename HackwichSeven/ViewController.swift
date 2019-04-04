@@ -7,14 +7,28 @@
 //
 
 import UIKit
+import MapKit
+import CoreLocation
 
 class ViewController: UIViewController {
 
+    @IBOutlet var mapView: MKMapView!
+    let initialLocation = CLLocation(latitude: 21.361888, longitude: -158.055725)
+    let regionRadious : CLLocationDistance = 10000
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        centerMapOnLocation(location: initialLocation)
+        
+        let resturantOne = Restaurant(title: "Kalapawai", type: "American", coordiate: CLLocationCoordinate2D(latitude: 21.346470, longitude: -158.080098))
+        mapView.addAnnotation(resturantOne)
     }
 
+    func centerMapOnLocation(location: CLLocation){
+        let coordinateRegion = MKCoordinateRegion(center: location.coordinate,latitudinalMeters: regionRadious,longitudinalMeters: regionRadious)
+        mapView.setRegion(coordinateRegion, animated: true)
+    }
 
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F00223ED2256992900F7B7A9 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00223EC2256992900F7B7A9 /* Restaurant.swift */; };
 		F0EA8691225694F6004632DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EA8690225694F6004632DF /* AppDelegate.swift */; };
 		F0EA8693225694F6004632DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EA8692225694F6004632DF /* ViewController.swift */; };
 		F0EA8696225694F6004632DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0EA8694225694F6004632DF /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F00223EC2256992900F7B7A9 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		F0EA868D225694F6004632DF /* HackwichSeven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackwichSeven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0EA8690225694F6004632DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0EA8692225694F6004632DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				F0EA8690225694F6004632DF /* AppDelegate.swift */,
 				F0EA8692225694F6004632DF /* ViewController.swift */,
+				F00223EC2256992900F7B7A9 /* Restaurant.swift */,
 				F0EA8694225694F6004632DF /* Main.storyboard */,
 				F0EA8697225694F9004632DF /* Assets.xcassets */,
 				F0EA8699225694F9004632DF /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				F0EA8693225694F6004632DF /* ViewController.swift in Sources */,
 				F0EA8691225694F6004632DF /* AppDelegate.swift in Sources */,
+				F00223ED2256992900F7B7A9 /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
