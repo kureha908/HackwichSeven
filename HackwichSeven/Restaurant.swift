@@ -17,7 +17,7 @@ class Restaurant: NSObject, MKAnnotation {
     
     init(title: String, type: String, coordiate: CLLocationCoordinate2D) {
         self.restaurantTitle = title
-        self.restaurantType = type
+        self.restaurantType = title
         self.coordinate = coordiate
         
         super.init()
